@@ -1,5 +1,5 @@
 function filtrerAdultes(utilisateurs) {
-	return utilisateurs.filter(filtrerAdultes.age => filtrerAdultes.age >= 18);
+	return utilisateurs.filter(filtrerAdulte => filtrerAdulte.age >= 18);
 }
 
 console.log(

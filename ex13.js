@@ -1,5 +1,5 @@
 function genererDescriptions(personnes) {
-    return personnes.filter((x)genererDescriptions.nom + " a" + genererDescriptions.age + " ans");
+    return utilisateurs.filter(filtrerAdulte => filtrerAdulte.age >= 18);
 }
 
 console.log(
